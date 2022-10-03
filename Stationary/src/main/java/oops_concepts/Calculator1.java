@@ -11,15 +11,15 @@ public class Calculator1 extends Calculator {
 		super.display();
 	}
 	//Overloaded add().It takes two int parameters
-	int add(int a, int b) {
+	public int add(int a, int b) {
 		return a+b;
 	}
 	//Overloaded add().It takes three int parameters
-	int add(int a, int b, int c) {
+	public int add(int a, int b, int c) {
 		return a+b+c;
 	}
 	//Overloaded add().It takes two double parameters
-	double add(double a, double b) {
+	public double add(double a, double b) {
 		return a+b;
 	}
 
